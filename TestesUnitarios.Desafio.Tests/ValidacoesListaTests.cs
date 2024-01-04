@@ -38,7 +38,6 @@ public class ValidacoesListaTests
         var resultado = _validacoes.ListaContemDeterminadoNumero(lista, numeroParaProcurar);
 
         Assert.False(resultado);
-
     }
 
     [Fact]
